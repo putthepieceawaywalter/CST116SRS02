@@ -29,6 +29,7 @@ Format the following sales information using C++ stream manipulators.
 Midwest: $ 12,431.33  
    East: $127,690.50  
   South: $  9,200.00  
+  std::cout.imput(std::locale("en-US"));
 
 Right align the labels and colons and align the $’s using i/o manipulators. Place value punctuation according to the U.S. convention of 3 digits per group separated by commas with decimal point for dollar/cent separator. Show 2 digits to the right of the decimal point even when there are not fractions of a dollar in the data.  
 
